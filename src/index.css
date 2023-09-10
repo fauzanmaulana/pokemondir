@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#nav-option ul li{
+    padding: 5px;
+}
+
+#nav-option ul li:hover{
+    cursor: pointer;
+}
+
+#nav-option ul li:not(:last-child){
+    border-bottom: 1px #eaeaea solid;
+    margin-bottom: 5px;
+}
